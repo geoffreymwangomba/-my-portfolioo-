@@ -11,16 +11,17 @@
                 <h3>Geoffrey Mwangomba</h3>
             </div>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
                 </ul>
         </div>
     </nav>
  <section class = "section_profile">
     <div class="inner_section">
         <div class="image">
-            <img src="pic/icon.jpg" alt="">
+            <img src="pic/icon.jpg" alt="pic">
         </div>
      <div class="profile">
         <P>
@@ -57,10 +58,25 @@
         
     </div>
 </section>
+<div class="screenshots">
+   <h2>Project Screenshots </h2>
+</div>
+
+<section class="image_slide">
+    
+         
+           <div class="slide">
+               <img src="pic/home_post_2-1.gif" alt="pic">
+           </div>
+           <div class="slide">
+               <img src="pic/Website-Designa.png" alt="pic">
+                </div>
+
+</section>
 
 <section class="Section_3">
     <div>
-        <h2> <span>Skills</span> and Tools</h2>
+        <h2> Skills and Tools</h2>
     </div>
     <div>
         <ul>
@@ -86,14 +102,24 @@
         <div class="links"><br>
             <h2><span>Social</span> Media</h2>
             <ul>
-                <li><img src="pic/in.png" alt=""></li>
-                <li><img src="pic/inst.png" alt=""></li>
-                <li><img src="pic/face.jpg" alt=""></li>
-                <li><img src="pic/whatsapp.jpg" alt=""></li>
+                <li><img src="pic/in.png" alt="pic"></li>
+                <li><img src="pic/inst.png" alt="pic"></li>
+                <li><img src="pic/face.jpg" alt="pic"></li>
+                <li><img src="pic/whatsapp.jpg" alt="pic"></li>
                 
             </ul>
         </div>
     </div>
+    <script type="text/javascript">
+        var counter=1;
+        setInterval(function(){
+    document.getElementById('pic' + counter).checked=true;
+    counter++;
+    if(counter > 3){
+        counter = 1;
+    }
+    }, 2000);
+    </script>
 </footer>
 </body>
 </html>
