@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>my assignment</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,9 +11,9 @@
             </div>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="Projects.html">Projects</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="skill.html">Skills</a></li>
                 </ul>
         </div>
     </nav>
@@ -25,66 +24,70 @@
         </div>
      <div class="profile">
         <P>
-        <b>Hello,I'm Geoffrey</b></P>
+        <b>Hello,I'm Geoffrey </b></P>
         <p>
         I'm an upgrading student at Mzuzu University,<br>
-        studying bachalor of science in Information and Communication Technology
-        <br>am aweb developer and aprogrammer,i care deeply about creating softwares<br>
-        that help people in different working industries and make a difference. 
+        studying bachalor of science in Informstionand Communication Technology<br>
+        am aweb developer and aprogrammer,i care deeply about creating softwares<br>
+        that help people in different working industries and make a difference.
+        show all details <br> and work experience of web development   
      </P>
+        <button>Contact Me</button>
     
      </div>
     </div>
    
  </section>
+ <div class="screenshots">
+    <h2>Project Screen<span>Shots</span></h2>
+ </div>
  
-<section class="project">
-    <div class="project_header">
-        <h2><span>Projects</span></h2>
-    </div>
-    <div class="description">
-        <div class="image_desc">
-            <img src="pic/img-5.jpg" alt="">
-            <h5>graphic design</h5>
-            <p>Expects in creating different <br> design that 
-                every constomer expert <br> <a href="design.html">read More</a></p>
-        </div>
-        <div class="image_desc">
-            <img src="pic/img-6.jpg" alt="">
-            <h5>Web development</h5>
-            <p>Expects in creating different<br> website for 
-                our customer<br> <a href="web.html">read More</a></p>
-        </div>
-        
-    </div>
-</section>
-<div class="screenshots">
-   <h2>Project Screenshots </h2>
-</div>
-
 <section class="image_slide">
-    
-         
-           <div class="slide">
-               <img src="pic/home_post_2-1.gif" alt="pic">
-           </div>
-           <div class="slide">
-               <img src="pic/Website-Designa.png" alt="pic">
-                </div>
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <div class="slide first">
+                <img src="pic/45.jpg" alt="pic">
+            </div>
+            <div class="slide">
+                <img src="pic/home_post_2-1.gif" alt="pic">
+            </div>
+            <div class="slide">
+                <img src="pic/Website-Designa.png" alt="pic">
+            </div>
+            <div class="slide">
+                <img src="pic/kai-rohweder-HWAYMtOZjHU-unsplash.jpg" alt="pic">
+            </div>
 
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
 </section>
 
 <section class="Section_3">
     <div>
-        <h2> Skills and Tools</h2>
+        <h2> <span>Skills</span> and Tools</h2>
     </div>
     <div>
         <ul>
             <li> &#x2713  Expert in computer Maintanance</li><br><br>
             <li> &#x2713  Expert in networking</li><br><br>
-            <li> &#x2713  Expect in web design</li><br><br>
+            <li> &#x2713  Expect in gaming development</li><br><br>
             <li> &#x2713  Programming</li>
-            
         </ul>
     </div>
 </section>
@@ -93,6 +96,12 @@
     <div class=" main_footer">
         <div ><br>
             <h2><span>Contact</span> Info</h2>
+        
+                    Mr Mwangomba<br>P.O.Box 20150<br>Lilongwe <br> Malawi
+            
+                    <p>
+                        <a href="">+265 882 851 116</a>
+                    </p>
                 
                     <p>
                         <a href="">geoffreymwangomba@gmail.com</a> 
@@ -102,24 +111,27 @@
         <div class="links"><br>
             <h2><span>Social</span> Media</h2>
             <ul>
-                <li><img src="pic/in.png" alt="pic"></li>
-                <li><img src="pic/inst.png" alt="pic"></li>
-                <li><img src="pic/face.jpg" alt="pic"></li>
-                <li><img src="pic/whatsapp.jpg" alt="pic"></li>
+                <li><img src="pic/in.png" alt=""></li>
+                <li><img src="pic/inst.png" alt=""></li>
+                <li><img src="pic/face.jpg" alt=""></li>
+                <li><img src="pic/whatsapp.jpg" alt=""></li>
                 
             </ul>
         </div>
     </div>
-    <script type="text/javascript">
-        var counter=1;
-        setInterval(function(){
-    document.getElementById('pic' + counter).checked=true;
-    counter++;
-    if(counter > 3){
-        counter = 1;
-    }
-    }, 2000);
-    </script>
+    <div>
+
+    </div>
 </footer>
+<script type="text/javascript">
+    var counter=1;
+    setInterval(function(){
+document.getElementById('radio' + counter).checked=true;
+counter++;
+if(counter > 4){
+    counter = 1;
+}
+}, 3000);
+</script>
 </body>
 </html>
